@@ -1,0 +1,44 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+}
+header, section {
+    margin-bottom: 20px;
+}
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; margin-top: 10px; }
+p  { margin-top: 5px; }
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+section {
+    flex: 1 1 300px; /* минимальная ширина 300px */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+form label {
+        display: block;
+        margin-bottom: 10px;
+}
+input, textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #888;
+        border-radius: 4px;
+}
+button {
+        padding: 10px 20px;
+        border: none;
+        background: #28a745;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+}
+button:hover {
+        background: #218838;
+}
